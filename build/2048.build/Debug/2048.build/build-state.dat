@@ -1,0 +1,959 @@
+T2048
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o /Developer/Projects/2048/2048/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o /Developer/Projects/2048/2048/Tween.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o /Developer/Projects/2048/2048/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o /Developer/Projects/2048/2048/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o /Developer/Projects/2048/2048/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/Projects/2048/build/Debug/2048.app/Contents/MacOS/2048 normal x86_64
+cCopyStringsFile /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj/InfoPlist.strings 2048/en.lproj/InfoPlist.strings
+cCpResource 2048/en.lproj/Credits.rtf build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Developer/Projects/2048/2048/Base.lproj/MainMenu.xib
+cCompileAssetCatalog /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources /Developer/Projects/2048/2048/Images.xcassets
+cProcessInfoPlistFile /Developer/Projects/2048/build/Debug/2048.app/Contents/Info.plist /Developer/Projects/2048/2048/2048-Info.plist
+cTouch /Developer/Projects/2048/build/Debug/2048.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005320EB8B00000000000000AA
+t1394666379
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052771D2C000000000000044C
+t1383537964
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005320EB7A00000000000001DE
+t1394666362
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000005320EB7A0000000000268434
+t1394666362
+s2524212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c0000000052771D2C0000000000007D5C
+t1383537964
+s32092
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+c000000005320EB7A0000000000020D64
+t1394666362
+s134500
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+c0000000052771D2C000000000001B3B8
+t1383537964
+s111544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+c000000005320EB7A0000000000034FAC
+t1394666362
+s217004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+c0000000052771D2C000000000000CB08
+t1383537964
+s51976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+c0000000052771D2C000000000002C5F4
+t1383537964
+s181748
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+c0000000052771D2C000000000002B9A8
+t1383537964
+s178600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+c000000005320EB7A0000000000011EF8
+t1394666362
+s73464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005320EB7A00000000000598A8
+t1394666362
+s366760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000052771D2D000000000000253C
+t1383537965
+s9532
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000005320EB7A000000000004C7C4
+t1394666362
+s313284
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005320EB7A0000000000085C70
+t1394666362
+s547952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005320EB7A000000000008B334
+t1394666362
+s570164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c0000000052771D2D000000000000979C
+t1383537965
+s38812
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+c0000000052771D2D00000000000223B4
+t1383537965
+s140212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+c000000005320EB7A0000000000071CA8
+t1394666362
+s466088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+c0000000052771D2D0000000000017E1C
+t1383537965
+s97820
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+c000000005320EB7A000000000004F090
+t1394666362
+s323728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+c000000005320EB7A000000000003AA48
+t1394666362
+s240200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+c000000005320EB7A00000000000383CC
+t1394666362
+s230348
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+c0000000052771D2D000000000001B66C
+t1383537965
+s112236
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000005320EB7A0000000000030448
+t1394666362
+s197704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000052771D2D0000000000017D00
+t1383537965
+s97536
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration
+c000000005320EB7A000000000000B27C
+t1394666362
+s45692
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005320EB7A00000000000C9E38
+t1394666362
+s826936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000005320EB7A000000000004426C
+t1394666362
+s279148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOSurface.framework/IOSurface
+c0000000052771D2E000000000000A9A0
+t1383537966
+s43424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000005320EB7A00000000000394B0
+t1394666362
+s234672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005320EB7A000000000000BB7C
+t1394666362
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+c000000005320EB7B00000000000211A0
+t1394666363
+s135584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+c000000005320EB7A0000000000005F00
+t1394666362
+s24320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005320EB7B0000000000055BC0
+t1394666363
+s351168
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+c000000005320EB7B0000000000056FB4
+t1394666363
+s356276
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+c0000000052771D2F000000000000D484
+t1383537967
+s54404
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005320EB7B00000000000762B4
+t1394666363
+s484020
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c000000005320EB7B000000000000681C
+t1394666363
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+c0000000052771D36000000000006E8B0
+t1383537974
+s452784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+c0000000052771D360000000000014EF8
+t1383537974
+s85752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c0000000052771D360000000000004734
+t1383537974
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000052771D36000000000000FC6C
+t1383537974
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000052771D36000000000000F6A0
+t1383537974
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c0000000052771D360000000000006254
+t1383537974
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c0000000052771D36000000000000E0F8
+t1383537974
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c000000005320EB7B000000000000D6DC
+t1394666363
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c000000005320EB7B0000000000006308
+t1394666363
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c0000000052771D360000000000004050
+t1383537974
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c000000005320EB7B0000000000008570
+t1394666363
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c0000000052771D360000000000005EA0
+t1383537974
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c0000000052771D360000000000005FAC
+t1383537974
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c0000000052771D360000000000004440
+t1383537974
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c0000000052771D36000000000000AA28
+t1383537974
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c0000000052771D360000000000003E2C
+t1383537974
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c000000005320EB7B0000000000030B04
+t1394666363
+s199428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005320EB7B0000000000005E54
+t1394666363
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005320EB7B0000000000006A90
+t1394666363
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c0000000052771D3600000000000178AC
+t1383537974
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005320EB7B000000000001ADC8
+t1394666363
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c0000000052771D36000000000001028C
+t1383537974
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005320EB7B0000000000008800
+t1394666363
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c0000000052771D360000000000011090
+t1383537974
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000052771D36000000000000882C
+t1383537974
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005320EB7B00000000000067AC
+t1394666363
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c0000000052771D360000000000008DEC
+t1383537974
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005320EB7B0000000000004C08
+t1394666363
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005320EB7B0000000000002428
+t1394666363
+s9256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c0000000052771D36000000000000439C
+t1383537974
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c0000000052771D360000000000006768
+t1383537974
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c000000005320EB7B00000000000172F4
+t1394666363
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005320EB7C0000000000000ADC
+t1394666364
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c000000005320EB7C0000000000001770
+t1394666364
+s6000
+
+N/Developer/Projects/2048/2048/2048-Info.plist
+c000000005345E9450000000000000447
+t1397090629
+s1095
+
+N/Developer/Projects/2048/2048/2048-Prefix.pch
+c000000005345E94500000000000000A9
+t1397090629
+s169
+
+N/Developer/Projects/2048/2048/Base.lproj/MainMenu.xib
+c000000005345ED09000000000000C1AF
+t1397091593
+s49583
+
+N/Developer/Projects/2048/2048/Controller.h
+c000000004D56CC840000000000000260
+t1297534084
+s608
+
+N/Developer/Projects/2048/2048/Controller.mm
+c000000005345F34E00000000000009CD
+t1397093198
+s2509
+
+N/Developer/Projects/2048/2048/GLString.h
+c000000004F1F373F00000000000019EC
+t1327445823
+s6636
+
+N/Developer/Projects/2048/2048/GLString.m
+c000000004F52A2A20000000000003C19
+t1330815650
+s15385
+
+N/Developer/Projects/2048/2048/GLView.h
+c000000005345EAEA00000000000003DC
+t1397091050
+s988
+
+N/Developer/Projects/2048/2048/GLView.mm
+c00000000534607BF0000000000003AD8
+t1397098431
+s15064
+
+N/Developer/Projects/2048/2048/Images.xcassets
+c000000005345E9450000000000000066
+t1397090629
+s102
+
+N/Developer/Projects/2048/2048/Tween.h
+c0000000053460111000000000000066D
+t1397096721
+s1645
+
+N/Developer/Projects/2048/2048/Tween.m
+c000000005346010100000000000011E0
+t1397096705
+s4576
+
+N/Developer/Projects/2048/2048/Tween.mm
+c000000005346010100000000000011E0
+t1397096705
+s4576
+
+N/Developer/Projects/2048/2048/en.lproj/Credits.rtf
+c000000005345E94500000000000001B4
+t1397090629
+s436
+
+N/Developer/Projects/2048/2048/en.lproj/InfoPlist.strings
+c000000005345E945000000000000002D
+t1397090629
+s45
+
+N/Developer/Projects/2048/2048/main.m
+c000000005345E94500000000000000DB
+t1397090629
+s219
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/2048.LinkFileList
+c000000005346013700000000000001C5
+t1397096759
+s453
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o
+t1397099737
+s27620
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o
+t1397099737
+s116004
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o
+t1397099737
+s114440
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o
+t1397099737
+s21924
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o
+t1397099737
+s3328
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_dependencies.txt
+t1397099739
+s107
+
+N/Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_generated_info.plist
+t1397099739
+s181
+
+N/Developer/Projects/2048/build/Debug/2048.app
+t1397098432
+s102
+
+N/Developer/Projects/2048/build/Debug/2048.app/Contents/Info.plist
+t1397099739
+s1397
+
+N/Developer/Projects/2048/build/Debug/2048.app/Contents/MacOS/2048
+t1397099737
+s84536
+
+N/Developer/Projects/2048/build/Debug/2048.app/Contents/PkgInfo
+t1397099739
+s8
+
+N/Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/Base.lproj/MainMenu.nib
+t1397099739
+s36835
+
+N/Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf
+t1397090754
+s436
+
+N/Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1397090754
+s92
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005313C2B8000000000002C960
+t1393803960
+s182624
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch
+t1397099737
+s116332
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.pch
+t1397090736
+s116740
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.pch
+t1397090753
+s116308
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.pch
+t1397090752
+s16885036
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch
+t1397099735
+s16884476
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.pch
+t1397090735
+s16906780
+
+CBuild AST from /Developer/Projects/2048/2048/AppDelegate.m
+r0
+
+CBuild AST from /Developer/Projects/2048/2048/Controller.mm
+r0
+
+CBuild AST from /Developer/Projects/2048/2048/GLString.m
+r0
+
+CBuild AST from /Developer/Projects/2048/2048/GLView.mm
+r0
+
+CBuild AST from /Developer/Projects/2048/2048/Tween.m
+r0
+
+CBuild AST from /Developer/Projects/2048/2048/Tween.mm
+r0
+
+CBuild AST from /Developer/Projects/2048/2048/main.m
+r0
+
+CBuild AST from /Developer/Projects/GUI/GUI/GLString.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesda8cb35644f6b841^ea22c95644f6b841^---0#1#1#--18"Check dependencies36"9C7AF119-BD54-4945-B8BA-35ECBCA59C43-
+
+CCompileAssetCatalog /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources /Developer/Projects/2048/2048/Images.xcassets
+s418792537.673747
+e418792539.507050
+r1
+xCompileAssetCatalog
+x/Developer/Projects/2048/build/Debug/2048.app/Contents/Resources
+x/Developer/Projects/2048/2048/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CompileAssetCatalog build/Debug/2048.app/Contents/Resources 2048/Images.xcassets80"CompileAssetCatalog build/Debug/2048.app/Contents/Resources 2048/Images.xcassets4986ac5944f6b841^e1ce815b44f6b841^-137"/* com.apple.actool.compilation-results *//Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@53"file:///Developer/Projects/2048/2048/Images.xcassets/0000000000000000^678"CompileAssetCatalog build/Debug/2048.app/Contents/Resources 2048/Images.xcassets    cd /Developer/Projects/2048    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_dependencies.txt --output-partial-info-plist /Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform macosx --minimum-deployment-target 10.8 --target-device mac --compile /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources /Developer/Projects/2048/2048/Images.xcassets36"57ED7243-4D62-44F8-BADF-4C69CB3EEFDB-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/AppDelegate.o /Developer/Projects/2048/2048/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o /Developer/Projects/2048/2048/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418792537.121567
+e418792537.198482
+r1
+xCompileC
+xbuild/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o
+x/Developer/Projects/2048/2048/Controller.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/Controller.mm
+d/Developer/Projects/2048/2048/Controller.h
+d/Developer/Projects/2048/2048/GLView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Developer/Projects/2048/2048/Controller.mm168"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o 2048/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler54371f5944f6b841^5fd0325944f6b841^---0#0#1#-19%DVTDocumentLocation2@50"file:///Developer/Projects/2048/2048/Controller.mm0000000000000000^2944"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o 2048/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.d --serialize-diagnostics /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.dia -c /Developer/Projects/2048/2048/Controller.mm -o /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o36"B5D85794-09AF-4D3D-8CC0-268138D42A59-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o /Developer/Projects/2048/2048/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418792537.122347
+e418792537.266130
+r1
+xCompileC
+xbuild/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o
+x/Developer/Projects/2048/2048/GLString.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/GLString.m
+d/Developer/Projects/2048/2048/GLString.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Developer/Projects/2048/2048/GLString.m161"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o 2048/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd3671f5944f6b841^1c24445944f6b841^---0#0#1#-19%DVTDocumentLocation2@47"file:///Developer/Projects/2048/2048/GLString.m0000000000000000^2782"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o 2048/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.d --serialize-diagnostics /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.dia -c /Developer/Projects/2048/2048/GLString.m -o /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o36"49AA29DC-2466-4B3B-9349-A31594EFC44E-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o /Developer/Projects/GUI/GUI/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o /Developer/Projects/2048/2048/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418792537.121832
+e418792537.565951
+r1
+xCompileC
+xbuild/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o
+x/Developer/Projects/2048/2048/GLView.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/GLView.mm
+d/Developer/Projects/2048/2048/GLView.h
+d/Developer/Projects/2048/2048/GLString.h
+d/Developer/Projects/2048/2048/Tween.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Projects/2048/2048/GLView.mm160"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o 2048/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler564a1f5944f6b841^dee3905944f6b841^---0#0#1#-19%DVTDocumentLocation2@46"file:///Developer/Projects/2048/2048/GLView.mm0000000000000000^2920"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o 2048/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.d --serialize-diagnostics /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.dia -c /Developer/Projects/2048/2048/GLView.mm -o /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o36"A6D5DDCC-3F2B-43D6-A3B5-1DE25C333A3F-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o /Developer/Projects/2048/2048/Tween.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418789559.392135
+e418789559.440369
+r1
+xCompileC
+xbuild/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o
+x/Developer/Projects/2048/2048/Tween.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/Tween.m
+d/Developer/Projects/2048/2048/Tween.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Developer/Projects/2048/2048/Tween.m155"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o 2048/Tween.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd6f64b738f6b841^77bd70b738f6b841^---0#0#1#-19%DVTDocumentLocation2@44"file:///Developer/Projects/2048/2048/Tween.m0000000000000000^2764"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o 2048/Tween.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.d --serialize-diagnostics /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.dia -c /Developer/Projects/2048/2048/Tween.m -o /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o36"F7D29D83-3F81-4BD3-BA95-651D02DED478-
+b1A9073CE-3B26-48D9-8058-7A409658D062
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o /Developer/Projects/2048/2048/Tween.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418792537.121329
+e418792537.294311
+r1
+xCompileC
+xbuild/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o
+x/Developer/Projects/2048/2048/Tween.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/Tween.mm
+d/Developer/Projects/2048/2048/Tween.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Projects/2048/2048/Tween.mm158"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o 2048/Tween.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerd1221f5944f6b841^6d584b5944f6b841^---0#0#1#-19%DVTDocumentLocation2@45"file:///Developer/Projects/2048/2048/Tween.mm0000000000000000^2914"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o 2048/Tween.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.d --serialize-diagnostics /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.dia -c /Developer/Projects/2048/2048/Tween.mm -o /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o36"8B7BBAF0-1A9E-4AB4-AA29-2563AEFBF9EF-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o /Developer/Projects/2048/2048/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418792537.121042
+e418792537.192695
+r1
+xCompileC
+xbuild/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o
+x/Developer/Projects/2048/2048/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Compile /Developer/Projects/2048/2048/main.m153"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o 2048/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler280f1f5944f6b841^8f56315944f6b841^---0#0#1#-19%DVTDocumentLocation2@43"file:///Developer/Projects/2048/2048/main.m0000000000000000^2758"CompileC build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o 2048/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.dia -c /Developer/Projects/2048/2048/main.m -o /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o36"332AF854-2476-4CD4-ABD9-0AE83859A6AB-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCompileXIB /Developer/Projects/2048/2048/Base.lproj/MainMenu.xib
+s418792537.673515
+e418792539.768837
+r1
+xCompileXIB
+x/Developer/Projects/2048/2048/Base.lproj/MainMenu.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compiling /Developer/Projects/2048/2048/Base.lproj/MainMenu.xib39"CompileXIB 2048/Base.lproj/MainMenu.xib6075ac5944f6b841^4ad3c45b44f6b841^---0#0#1#-19%DVTDocumentLocation2@60"file:///Developer/Projects/2048/2048/Base.lproj/MainMenu.xib0000000000000000^476"CompileXIB 2048/Base.lproj/MainMenu.xib    cd /Developer/Projects/2048    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.8 --output-format human-readable-text --compile /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/Base.lproj/MainMenu.nib /Developer/Projects/2048/2048/Base.lproj/MainMenu.xib36"1D5EF474-B66C-4286-B9CB-90BE8089D308-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CCopyStringsFile /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj/InfoPlist.strings 2048/en.lproj/InfoPlist.strings
+s418783554.637769
+e418783554.639245
+r1
+xCopyStringsFile
+x/Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj/InfoPlist.strings
+x2048/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy 2048/en.lproj/InfoPlist.strings114"CopyStringsFile build/Debug/2048.app/Contents/Resources/en.lproj/InfoPlist.strings 2048/en.lproj/InfoPlist.stringsf853a34221f6b841^26a6a34221f6b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Developer/Projects/2048/2048/en.lproj/InfoPlist.strings0000000000000000^346"CopyStringsFile build/Debug/2048.app/Contents/Resources/en.lproj/InfoPlist.strings 2048/en.lproj/InfoPlist.strings    cd /Developer/Projects/2048    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj -- 2048/en.lproj/InfoPlist.strings36"EE798B01-D560-4F2F-895C-562AD2437C04-
+b97654440-AC83-4084-9F92-8B7B45FD0703
+
+CCpResource 2048/en.lproj/Credits.rtf build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf
+s418783554.637872
+e418783554.638832
+r1
+xCpResource
+x2048/en.lproj/Credits.rtf
+xbuild/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf97"CpResource 2048/en.lproj/Credits.rtf build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtfeb56a34221f6b841^eb8ca34221f6b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf0034c05edfffdf42^367"CpResource 2048/en.lproj/Credits.rtf build/Debug/2048.app/Contents/Resources/en.lproj/Credits.rtf    cd /Developer/Projects/2048    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Projects/2048/2048/en.lproj/Credits.rtf /Developer/Projects/2048/build/Debug/2048.app/Contents/Resources/en.lproj36"72E4BA41-88D3-41F4-9300-F42BC922AF32-
+b97654440-AC83-4084-9F92-8B7B45FD0703
+
+CLd /Developer/Projects/2048/build/Debug/2048.app/Contents/MacOS/2048 normal x86_64
+s418792537.568126
+e418792537.661559
+r1
+xLd
+x/Developer/Projects/2048/build/Debug/2048.app/Contents/MacOS/2048
+xnormal
+xx86_64
+d/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/2048.LinkFileList
+d/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/main.o
+d/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Tween.o
+d/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/Controller.o
+d/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLView.o
+d/Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/GLString.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOSurface.framework/IOSurface
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Developer/Projects/2048/build/Debug/2048.app/Contents/MacOS/204857"Ld build/Debug/2048.app/Contents/MacOS/2048 normal x86_645f7c915944f6b841^1c5da95944f6b841^---0#0#1#--845"Ld build/Debug/2048.app/Contents/MacOS/2048 normal x86_64    cd /Developer/Projects/2048    export MACOSX_DEPLOYMENT_TARGET=10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Developer/Projects/2048/build/Debug -F/Developer/Projects/2048/build/Debug -filelist /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/2048.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -stdlib=libc++ -framework Cocoa -framework OpenGL -Xlinker -dependency_info -Xlinker /Developer/Projects/2048/build/2048.build/Debug/2048.build/Objects-normal/x86_64/2048_dependency_info.dat -o /Developer/Projects/2048/build/Debug/2048.app/Contents/MacOS/204836"D293E7C2-9CB0-4196-958E-F08243E205A5-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CProcessInfoPlistFile /Developer/Projects/2048/build/Debug/2048.app/Contents/Info.plist /Developer/Projects/2048/2048/2048-Info.plist
+s418792539.769410
+e418792539.800980
+r1
+xProcessInfoPlistFile
+x/Developer/Projects/2048/build/Debug/2048.app/Contents/Info.plist
+x/Developer/Projects/2048/2048/2048-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Process /Developer/Projects/2048/2048/2048-Info.plist82"ProcessInfoPlistFile build/Debug/2048.app/Contents/Info.plist 2048/2048-Info.plistb404c55b44f6b841^7c0dcd5b44f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Info.plist0000000000000000^488"ProcessInfoPlistFile build/Debug/2048.app/Contents/Info.plist 2048/2048-Info.plist    cd /Developer/Projects/2048    builtin-infoPlistUtility /Developer/Projects/2048/2048/2048-Info.plist -genpkginfo /Developer/Projects/2048/build/Debug/2048.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Developer/Projects/2048/build/2048.build/Debug/2048.build/assetcatalog_generated_info.plist -o /Developer/Projects/2048/build/Debug/2048.app/Contents/Info.plist36"3F53CA0F-E676-43B4-8BCB-3390A165801E-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-awehxffxperwqwetmriofjzkzdqm_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-bsevpryorbpbumgtegcycowazqbc_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-fetwfjomswgfjkanelbiimetpxcd_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-hhnwamosjokbiwdnfrxktzfawker_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418792534.786291
+e418792537.120397
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch
+x2048/2048-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/2048-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile 2048/2048-Prefix.pch278"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbc5bc95644f6b841^ddd21e5944f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Prefix.pch0000000000000000^2980"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug --serialize-diagnostics /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.d -c /Developer/Projects/2048/2048/2048-Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-coxvelhwtcvrcubxcdiiscyobvig/2048-Prefix.pch.pch36"3E10A67D-17AD-4827-A0C3-C89EF05A6253-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418783534.248760
+e418783536.695424
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.pch
+x2048/2048-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/2048-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile 2048/2048-Prefix.pch278"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler91d33f2e21f6b841^bb09b23021f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Prefix.pch0000000000000000^2991"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug --serialize-diagnostics /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.d -c /Developer/Projects/2048/2048/2048-Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-ddbvkvffpkiigwgojyhrvwelgcnx/2048-Prefix.pch.pch36"B577A96D-871A-47D0-8CAA-8FCA6ABFF953-
+bAB068EA3-4DD4-4E85-9C80-00C9638878E4
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418783551.619314
+e418783553.489992
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.pch
+x2048/2048-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/2048-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile 2048/2048-Prefix.pch278"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler399b9e3f21f6b841^ac727d4121f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Prefix.pch0000000000000000^2980"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug --serialize-diagnostics /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.d -c /Developer/Projects/2048/2048/2048-Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-dncxnsplbliqdufpmbebkqijfgyw/2048-Prefix.pch.pch36"BF5A9C3E-10A9-4840-B1DD-352C2674EF86-
+b97654440-AC83-4084-9F92-8B7B45FD0703
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fnhmlvymlxbjfxbdsbaaeoydlvkw/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-cdhkzorreqiaoqgbhgtciitsqwpo_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-dyzwmwgdprflzodapjlhafiqjvpo_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-fbxfvcpzggqiikftykxzxjcyawcd_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/2048-hhthbcjddoqoacglhyiwiecvckeh/Index/PrecompiledHeaders/2048-Prefix-hjtmuamhqbltzgdunekqwswptubm_ast/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418783551.619547
+e418783552.540949
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.pch
+x2048/2048-Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/2048-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile 2048/2048-Prefix.pch282"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler11a89e3f21f6b841^76e08c4021f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Prefix.pch0000000000000000^3130"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug --serialize-diagnostics /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.d -c /Developer/Projects/2048/2048/2048-Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-fltmlepsnrshruhkowuqmhpwparp/2048-Prefix.pch.pch36"BBBC6033-2197-43C7-B6D9-B8ECDF559F66-
+b97654440-AC83-4084-9F92-8B7B45FD0703
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418792534.786513
+e418792535.872885
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch
+x2048/2048-Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/2048-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile 2048/2048-Prefix.pch282"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler276ac95644f6b841^b875df5744f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Prefix.pch0000000000000000^3130"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug --serialize-diagnostics /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.d -c /Developer/Projects/2048/2048/2048-Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gkhogduaxjdfdzbyortxjxzqwzck/2048-Prefix.pch.pch36"F6D34219-C420-44B0-BEDA-1FCFAA237E07-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418783534.249087
+e418783535.531218
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.pch
+x2048/2048-Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Developer/Projects/2048/2048/2048-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile 2048/2048-Prefix.pch282"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler80d33f2e21f6b841^26ff872f21f6b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Developer/Projects/2048/2048/2048-Prefix.pch0000000000000000^3141"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/2048    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -fmodules -fmodules-cache-path=/Users/Neil/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-generated-files.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-own-target-headers.hmap -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-all-target-headers.hmap -iquote /Developer/Projects/2048/build/2048.build/Debug/2048.build/2048-project-headers.hmap -I/Developer/Projects/2048/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources/x86_64 -I/Developer/Projects/2048/build/2048.build/Debug/2048.build/DerivedSources -F/Developer/Projects/2048/build/Debug --serialize-diagnostics /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.d -c /Developer/Projects/2048/2048/2048-Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-glpcacgdrplsuffquqetlafnwkkx/2048-Prefix.pch.pch36"05A9BCCA-E55D-4672-B960-11C2AFF3E7DA-
+bAB068EA3-4DD4-4E85-9C80-00C9638878E4
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/2048-Prefix-gxihnawjptvpxifhmjbuukvfzvlr/2048-Prefix.pch.pch 2048/2048-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Developer/Projects/2048/build/Debug/2048.app
+s418792539.801516
+e418792539.805004
+r1
+xTouch
+x/Developer/Projects/2048/build/Debug/2048.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Touch /Developer/Projects/2048/build/Debug/2048.app26"Touch build/Debug/2048.app8639cd5b44f6b841^d317ce5b44f6b841^---0#0#1#--127"Touch build/Debug/2048.app    cd /Developer/Projects/2048    /usr/bin/touch -c /Developer/Projects/2048/build/Debug/2048.app36"E3D28764-7840-452D-8364-F67D227122BA-
+b3B6EC2B5-1BE6-4F41-940E-B3A9C0479F64
+
